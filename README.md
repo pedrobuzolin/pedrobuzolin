@@ -4,6 +4,8 @@ Focado na construção de APIs REST para sistemas de negócio, com ênfase em au
 
 ---
 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=pedrobuzolin&show_icons=true&theme=default)
+
 ## 🚀 Projeto em destaque
 
 ### 🔹 API de Gestão Comercial
