@@ -26,7 +26,9 @@ Projeto utilizando metaheurísticas para redução de custo em rotas reais.
 
 - Algoritmo Genético, Simulated Annealing e Hill Climbing  
 - Modelagem com grafos reais (OSMnx, NetworkX)  
-- Redução média de até 150 km em rotas  
+- Redução média de até 150 km em rotas
+
+🔗 https://github.com/pedrobuzolin/Comparacao-Algoritmos-Otimizacao-Rotas
 
 ---
 
@@ -40,6 +42,7 @@ Dashboard interativo para análise exploratória de salários globais.
 - Deploy com Streamlit  
 
 🔗 https://data-jobs-salary-dashboard.streamlit.app/
+🔗 https://github.com/pedrobuzolin/data-jobs-salary-analytics
 
 ---
 
