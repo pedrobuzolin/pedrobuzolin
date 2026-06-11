@@ -1,6 +1,6 @@
-# 👨‍💻 Desenvolvedor Backend Python
+# 👨‍💻 Desenvolvedor Backend
 
-Focado na construção de APIs REST para sistemas de negócio, com ênfase em autenticação, processamento de dados e integração com bancos SQL e NoSQL.
+Desenvolvedor Backend focado na construção de APIs e aplicações para sistemas de negócio, utilizando Java, Spring Boot e Python. Tenho experiência com autenticação, processamento de dados, integração com bancos SQL e NoSQL, testes automatizados e containerização de aplicações.
 
 ---
 
@@ -48,6 +48,8 @@ Dashboard interativo para análise exploratória de salários globais.
 
 ## 🛠️ Tecnologias
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
@@ -61,7 +63,7 @@ Dashboard interativo para análise exploratória de salários globais.
 
 ## 📈 Atualmente
 
-Desenvolvendo aplicações backend com Django, focando em autenticação, estrutura de APIs e boas práticas de arquitetura.
+Aprofundando conhecimentos em Java e Spring Boot, desenvolvendo aplicações backend e explorando conceitos de arquitetura, consumo de APIs, persistência de dados e boas práticas de engenharia de software.
 
 ---
 
