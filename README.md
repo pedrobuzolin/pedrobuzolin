@@ -19,6 +19,30 @@ Sistema backend desenvolvido para controle de vendas, ingestão de dados via CSV
 
 ---
 
+## ☕ Projeto mais recente
+
+### 🔹 Consulta Tabela FIPE - Java + Spring Boot
+
+Aplicação backend desenvolvida em Java utilizando Spring Boot para consulta de informações de veículos através de uma API externa da Tabela FIPE.
+
+O projeto permite consultar valores e características de carros, motos e caminhões, aplicando conceitos fundamentais do ecossistema Java, como consumo de APIs REST, manipulação de JSON e organização de aplicações backend.
+
+Principais implementações:
+
+- Consumo de API REST externa utilizando Spring
+- Desserialização e tratamento de dados JSON
+- Organização da aplicação em camadas
+- Manipulação de coleções e objetos em Java
+- Interface de interação via terminal
+
+Tecnologias:
+
+Java • Spring Boot • Maven • API REST
+
+🔗 https://github.com/pedrobuzolin/TabelaFipe
+
+---
+
 ## 🧠 Projeto aplicado
 
 ### 🔹 Otimização de Rotas Urbanas
