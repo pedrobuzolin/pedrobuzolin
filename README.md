@@ -1,161 +1,193 @@
-# 👨‍💻 Desenvolvedor Backend
+# 👨‍💻 Pedro Buzolin
 
-Desenvolvedor Backend focado na construção de APIs REST e sistemas de
-negócio, com experiência prática em Python e atualmente aprofundando
-conhecimentos em Java e Spring Boot.
+## Desenvolvedor Backend | Java • Spring Boot • APIs REST
 
-Tenho experiência no desenvolvimento de aplicações backend envolvendo
-autenticação, persistência de dados, integração com APIs externas,
-testes automatizados e containerização de aplicações.
+Sou Desenvolvedor Backend com foco na construção de APIs REST e sistemas orientados a regras de negócio.
 
-------------------------------------------------------------------------
+Atualmente concentro meus estudos e projetos no ecossistema **Java + Spring Boot**, desenvolvendo aplicações que envolvem modelagem de domínio, persistência de dados, validações de negócio, testes automatizados, integração com APIs externas e containerização com Docker.
 
-## ☕ Projeto mais recente
+Também possuo experiência no desenvolvimento de APIs utilizando Python e Flask, além de projetos envolvendo otimização de algoritmos e análise de dados.
 
-### 🎵 ScreenSound - Java + Spring Boot
+---
 
-Aplicação backend desenvolvida em Java utilizando Spring Boot para
-gerenciamento de artistas e músicas.
+# 🚀 Projeto em Destaque
 
-O projeto implementa persistência de dados utilizando PostgreSQL,
-consultas personalizadas com Spring Data JPA e integração com a API do
-Google Gemini para obtenção de informações complementares sobre
-artistas.
+## 🏢 RoomFlow — API REST para Gerenciamento de Reservas de Salas
 
-Principais implementações:
+API REST desenvolvida em **Java** utilizando **Spring Boot**, com foco em modelagem de domínio e implementação de regras de negócio para gerenciamento de salas, usuários e reservas.
 
--   CRUD de artistas e músicas
--   Persistência utilizando PostgreSQL
--   Mapeamento de entidades com JPA/Hibernate
--   Consultas utilizando JPQL e Derived Queries
--   Integração com API externa de Inteligência Artificial
--   Organização da aplicação em camadas
+### Principais implementações
 
-Stack:
+- Arquitetura em camadas
+- Regras de negócio encapsuladas nas entidades
+- Validação de conflitos de horários utilizando intervalo semiaberto
+- Consulta de disponibilidade de salas por período
+- Persistência com Spring Data JPA e Hibernate
+- Tratamento centralizado de exceções utilizando `ProblemDetail (RFC 9457)`
+- Validações desacopladas utilizando Strategy Pattern
+- Testes unitários com JUnit 5 e Mockito
+- Containerização com Docker
+- Pipeline de CI utilizando GitHub Actions
 
-Java • Spring Boot • Spring Data JPA • Hibernate • PostgreSQL • Maven
+### Stack
+
+**Java • Spring Boot • Spring Data JPA • Hibernate • PostgreSQL • JUnit 5 • Mockito • Docker • GitHub Actions**
+
+🔗 https://github.com/pedrobuzolin/roomflow
+
+---
+
+# ☕ Projeto Java
+
+## 🎵 ScreenSound — Gestão Musical
+
+Aplicação backend desenvolvida em Java utilizando Spring Boot para gerenciamento de artistas e músicas.
+
+### Principais implementações
+
+- Cadastro e consulta de artistas e músicas
+- Persistência utilizando PostgreSQL
+- Modelagem de entidades com JPA/Hibernate
+- Consultas utilizando JPQL e Derived Queries
+- Integração com a API Google Gemini
+- Arquitetura em camadas
+
+### Stack
+
+**Java • Spring Boot • Spring Data JPA • Hibernate • PostgreSQL • Maven**
 
 🔗 https://github.com/pedrobuzolin/ScreenSound
 
-------------------------------------------------------------------------
+---
 
-## 🚀 Projeto em destaque
+# 🎯 API REST Comercial
 
-### 🔹 API de Gestão Comercial
+## 🛒 StyleSync API
 
-Sistema backend desenvolvido para controle de vendas, ingestão de dados
-via CSV e autenticação segura.
+API REST desenvolvida para gerenciamento comercial, autenticação de usuários e processamento de vendas.
 
-Principais implementações:
+### Principais implementações
 
--   Autenticação com JWT
--   Processamento de vendas via CSV
--   Testes automatizados com Pytest
--   CI/CD com GitHub Actions
--   Deploy com Docker
+- Autenticação JWT
+- CRUD de usuários, produtos e vendas
+- Processamento de vendas via CSV
+- Persistência utilizando MongoDB
+- Testes automatizados com Pytest
+- Docker
+- CI/CD utilizando GitHub Actions
+- Deploy em produção
 
-Stack:
+### Stack
 
-Python • Flask • MongoDB • JWT • Docker • GitHub Actions
+**Python • Flask • MongoDB • JWT • Docker • GitHub Actions • Pytest**
 
 🔗 https://github.com/pedrobuzolin/stylesync-api
 
-------------------------------------------------------------------------
+---
 
-## 🚗 Projeto Java
+# 🚗 Projeto Java
 
-### Consulta Tabela FIPE - Java + Spring Boot
+## 🚘 Consulta Tabela FIPE
 
-Aplicação backend desenvolvida em Java utilizando Spring Boot para
-consumo de uma API externa da Tabela FIPE.
+Aplicação desenvolvida em Java para consumo da API da Tabela FIPE.
 
-O projeto aplica conceitos fundamentais do ecossistema Java, como
-consumo de APIs REST, manipulação de JSON e organização de aplicações
-backend.
+### Principais implementações
 
-Principais implementações:
+- Consumo de API REST
+- Desserialização de JSON
+- Organização em camadas
+- Manipulação de objetos Java
 
--   Consumo de API REST externa
--   Desserialização e tratamento de JSON
--   Organização da aplicação em camadas
--   Manipulação de objetos Java
+### Stack
 
-Stack:
-
-Java • Spring Boot • Maven • API REST
+**Java • Spring Boot • Maven • APIs REST**
 
 🔗 https://github.com/pedrobuzolin/TabelaFipe
 
-------------------------------------------------------------------------
+---
 
-## 🧠 Projeto aplicado
+# 🧠 Inteligência Artificial
 
-### 🔹 Otimização de Rotas Urbanas
+## 🚚 Otimização de Rotas Urbanas
 
-Projeto utilizando metaheurísticas para redução de custo em rotas reais.
+Projeto acadêmico desenvolvido para comparação de metaheurísticas aplicadas à otimização de rotas reais.
 
-Principais implementações:
+### Principais implementações
 
--   Algoritmo Genético, Simulated Annealing e Hill Climbing
--   Modelagem com grafos reais utilizando OSMnx e NetworkX
--   Redução média de até 150 km em rotas simuladas
+- Algoritmo Genético
+- Simulated Annealing
+- Hill Climbing
+- Modelagem utilizando grafos reais
+- Utilização de OSMnx e NetworkX
+- Comparação de desempenho entre algoritmos
+- Redução média superior a 150 km nas rotas simuladas
 
-Stack:
+### Stack
 
-Python • NetworkX • OSMnx
+**Python • OSMnx • NetworkX • Pandas • NumPy**
 
-🔗
-https://github.com/pedrobuzolin/Comparacao-Algoritmos-Otimizacao-Rotas
+🔗 https://github.com/pedrobuzolin/Comparacao-Algoritmos-Otimizacao-Rotas
 
-------------------------------------------------------------------------
+---
 
-## 📊 Análise de dados
+# 📊 Ciência de Dados
 
-### 🔹 Dashboard de Salários em Dados
+## 📈 Dashboard de Salários em Dados
 
-Dashboard interativo para análise exploratória de salários globais.
+Dashboard interativo para análise exploratória de salários globais na área de tecnologia.
 
-Principais implementações:
+### Principais implementações
 
--   Visualizações com Plotly
--   Filtros dinâmicos
--   Deploy com Streamlit
+- Tratamento e transformação de dados
+- Visualizações interativas com Plotly
+- Filtros dinâmicos
+- Deploy utilizando Streamlit
 
-Stack:
+### Stack
 
-Python • Pandas • Plotly • Streamlit
+**Python • Pandas • Plotly • Streamlit**
 
-🔗 https://github.com/pedrobuzolin/data-jobs-salary-analytics
+🔗 Repositório: https://github.com/pedrobuzolin/data-jobs-salary-analytics
 
-🔗 https://data-jobs-salary-dashboard.streamlit.app/
+🔗 Aplicação: https://data-jobs-salary-dashboard.streamlit.app/
 
-------------------------------------------------------------------------
+---
 
-## 🛠️ Tecnologias
+# 🛠️ Tecnologias
+
+### Backend
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring
-Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Spring Data
-JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+
+### Banco de Dados
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
+### Ferramentas
+
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-------------------------------------------------------------------------
+---
 
-## 📈 Atualmente
+# 📚 Atualmente estudando
 
-Aprofundando conhecimentos em Java e Spring Boot, desenvolvendo
-aplicações backend com foco em APIs REST, persistência de dados,
-segurança e arquitetura de software.
+- Arquitetura de Software
+- Spring Security
+- Testes de Integração
+- Microsserviços
+- Clean Architecture
+- Domain-Driven Design (DDD)
 
-------------------------------------------------------------------------
+---
 
-## 📫 Contato
+# 📫 Contato
 
-LinkedIn: https://www.linkedin.com/in/pedro-buzolin
+- 💼 LinkedIn: https://www.linkedin.com/in/pedro-buzolin
